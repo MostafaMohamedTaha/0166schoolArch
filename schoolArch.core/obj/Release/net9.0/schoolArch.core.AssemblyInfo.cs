@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("schoolArch.core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93a952a5d5bc7b979f137ddc303f85b59940f299")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f25735e039ae94efe231fe3c3eed53c28cc3df03")]
 [assembly: System.Reflection.AssemblyProductAttribute("schoolArch.core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("schoolArch.core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
