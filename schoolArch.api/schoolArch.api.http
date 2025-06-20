@@ -1,0 +1,6 @@
+@schoolArch.api_HostAddress = http://localhost:5294
+
+GET {{schoolArch.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

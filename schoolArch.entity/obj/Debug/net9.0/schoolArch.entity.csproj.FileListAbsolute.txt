@@ -1,0 +1,12 @@
+D:\0p\0166schoolArch\schoolArch\schoolArch.entity\bin\Debug\net9.0\schoolArch.entity.deps.json
+D:\0p\0166schoolArch\schoolArch\schoolArch.entity\bin\Debug\net9.0\schoolArch.entity.dll
+D:\0p\0166schoolArch\schoolArch\schoolArch.entity\bin\Debug\net9.0\schoolArch.entity.pdb
+D:\0p\0166schoolArch\schoolArch\schoolArch.entity\obj\Debug\net9.0\schoolArch.entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\0p\0166schoolArch\schoolArch\schoolArch.entity\obj\Debug\net9.0\schoolArch.entity.AssemblyInfoInputs.cache
+D:\0p\0166schoolArch\schoolArch\schoolArch.entity\obj\Debug\net9.0\schoolArch.entity.AssemblyInfo.cs
+D:\0p\0166schoolArch\schoolArch\schoolArch.entity\obj\Debug\net9.0\schoolArch.entity.csproj.CoreCompileInputs.cache
+D:\0p\0166schoolArch\schoolArch\schoolArch.entity\obj\Debug\net9.0\schoolArch.entity.sourcelink.json
+D:\0p\0166schoolArch\schoolArch\schoolArch.entity\obj\Debug\net9.0\schoolArch.entity.dll
+D:\0p\0166schoolArch\schoolArch\schoolArch.entity\obj\Debug\net9.0\refint\schoolArch.entity.dll
+D:\0p\0166schoolArch\schoolArch\schoolArch.entity\obj\Debug\net9.0\schoolArch.entity.pdb
+D:\0p\0166schoolArch\schoolArch\schoolArch.entity\obj\Debug\net9.0\ref\schoolArch.entity.dll

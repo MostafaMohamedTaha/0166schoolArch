@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schoolArch.api", "schoolArch.api\schoolArch.api.csproj", "{70F172A8-7FC1-4C0E-A2CD-A37ED9708B4A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{04FBDB5D-0B3B-4850-AA72-C154DEDF2380} = {04FBDB5D-0B3B-4850-AA72-C154DEDF2380}
+		{4FA9A050-C621-4AF6-90A5-115166ED1D19} = {4FA9A050-C621-4AF6-90A5-115166ED1D19}
+		{7662AF32-A875-4D58-8AAF-DACEF9C62D3F} = {7662AF32-A875-4D58-8AAF-DACEF9C62D3F}
+		{837F37BC-97B1-4547-AE81-6BC2687E217D} = {837F37BC-97B1-4547-AE81-6BC2687E217D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schoolArch.infra", "schoolArch.infra\schoolArch.infra.csproj", "{7662AF32-A875-4D58-8AAF-DACEF9C62D3F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{837F37BC-97B1-4547-AE81-6BC2687E217D} = {837F37BC-97B1-4547-AE81-6BC2687E217D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schoolArch.entity", "schoolArch.entity\schoolArch.entity.csproj", "{837F37BC-97B1-4547-AE81-6BC2687E217D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schoolArch.service", "schoolArch.service\schoolArch.service.csproj", "{04FBDB5D-0B3B-4850-AA72-C154DEDF2380}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7662AF32-A875-4D58-8AAF-DACEF9C62D3F} = {7662AF32-A875-4D58-8AAF-DACEF9C62D3F}
+		{837F37BC-97B1-4547-AE81-6BC2687E217D} = {837F37BC-97B1-4547-AE81-6BC2687E217D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schoolArch.core", "schoolArch.core\schoolArch.core.csproj", "{4FA9A050-C621-4AF6-90A5-115166ED1D19}"
+	ProjectSection(ProjectDependencies) = postProject
+		{04FBDB5D-0B3B-4850-AA72-C154DEDF2380} = {04FBDB5D-0B3B-4850-AA72-C154DEDF2380}
+		{7662AF32-A875-4D58-8AAF-DACEF9C62D3F} = {7662AF32-A875-4D58-8AAF-DACEF9C62D3F}
+		{837F37BC-97B1-4547-AE81-6BC2687E217D} = {837F37BC-97B1-4547-AE81-6BC2687E217D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70F172A8-7FC1-4C0E-A2CD-A37ED9708B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70F172A8-7FC1-4C0E-A2CD-A37ED9708B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70F172A8-7FC1-4C0E-A2CD-A37ED9708B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70F172A8-7FC1-4C0E-A2CD-A37ED9708B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7662AF32-A875-4D58-8AAF-DACEF9C62D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7662AF32-A875-4D58-8AAF-DACEF9C62D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7662AF32-A875-4D58-8AAF-DACEF9C62D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7662AF32-A875-4D58-8AAF-DACEF9C62D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{837F37BC-97B1-4547-AE81-6BC2687E217D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{837F37BC-97B1-4547-AE81-6BC2687E217D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{837F37BC-97B1-4547-AE81-6BC2687E217D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{837F37BC-97B1-4547-AE81-6BC2687E217D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04FBDB5D-0B3B-4850-AA72-C154DEDF2380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04FBDB5D-0B3B-4850-AA72-C154DEDF2380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04FBDB5D-0B3B-4850-AA72-C154DEDF2380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04FBDB5D-0B3B-4850-AA72-C154DEDF2380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA9A050-C621-4AF6-90A5-115166ED1D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA9A050-C621-4AF6-90A5-115166ED1D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA9A050-C621-4AF6-90A5-115166ED1D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA9A050-C621-4AF6-90A5-115166ED1D19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6491B95F-8B54-46BE-91D3-E7001EB5C20B}
+	EndGlobalSection
+EndGlobal
